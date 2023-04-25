@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".MainActivity4">
+
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/ic_baseline_person_24" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:hint="Search"
+        android:background="#30ffffff"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="23dp"
+        android:textSize="29dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+
+        android:text="Good Morning, Priyanshu"
+        android:textStyle="bold|italic"
+        android:textSize="29dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/button"
+        android:gravity="center"
+        android:layout_margin="10dp"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meditation"
+        android:layout_below="@+id/content"
+        android:layout_margin="50dp"
+        android:text="Meditation"
+        android:textSize="25dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yoga"
+        android:layout_below="@+id/meditation"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Yoga"
+        android:textSize="25dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/song"
+        android:layout_below="@+id/yoga"
+        android:text="Song"
+        android:layout_margin="50dp"
+        android:textSize="25dp"
+        android:layout_marginStart="50dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/games"
+        android:layout_below="@+id/song"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Games"
+        android:textSize="25dp"
+        />
+
+
+</RelativeLayout>

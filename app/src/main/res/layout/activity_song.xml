@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".song">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aff"
+        android:text="For affirmations"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="378dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/aff"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Click me"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/song"
+        android:layout_below="@+id/button"
+        android:text="For Songs"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="390dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/song"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Natural sound-Watterfall"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="390dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_margin="10dp"
+        android:text="Flute music"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="390dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_margin="10dp"
+        android:text="Om Chanting Meditation sound"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="390dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_margin="10dp"
+        android:text="Om Chanting Meditation sound"
+        android:textSize="18dp"
+        />
+
+
+</RelativeLayout>
